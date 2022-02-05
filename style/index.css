@@ -1,0 +1,10 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(8, 4, 4);
+}
+
+#stopwatchContainer {
+    display: flex;
+    justify-content: center;
+}
