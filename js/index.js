@@ -7,9 +7,8 @@ var z = 0;
 var check = true;
 var clear = 0;
 let screeWidth = screen.width;
-let height = screen.height;
+
 console.log(screeWidth);
-console.log(height);
 
 var stopwatch = document.getElementById("display");
 
@@ -25,7 +24,9 @@ for (i = 0; i < buttons.length; i++) {
 }
 
 if (screeWidth < 440) {
-    buttons[2].style.padding = "8px 22px";
+    buttons[2].style.padding = "8px 36px";
+    buttons[0].style.padding = "8px 40px";
+    buttons[1].style.padding = "8px 40px";
 }
 
 
