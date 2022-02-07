@@ -9,12 +9,18 @@
         <title>StopWatch</title>
     </head>
     <body>
-        <main class="stopwatchContainer">
-            <div id="display"></div>
-            <div class="functions">
-                <button id="button">Start</button>
-                <button id="button">Stop</button>
-                <button id="button">Reset</button>
+        <main>
+            <div class="main">
+                <div class="stopwatchContainer">
+                    <div class="stopwatchContainerChild">
+                        <div id="display"></div>
+                        <div class="functions">
+                            <button id="button" onclick="initiate()">Start</button>
+                            <button id="button" onclick="stop()">Stop</button>
+                            <button id="button" onclick="reset()">Reset</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <script src="js/index.js"></script>
